@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 10px 5px 10px;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid #5f9341;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #5f9341;
+  margin: 0px 10px 5px 10px;
+  padding: 5px 30px;
+  border: none;
+}
+
+#box {
+  cursor: pointer;
+  background: lightseagreen;
+  padding: 40px;
+  width: 200px;
+  text-align: center;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+a {
+  color: #5f9341;
+}
+/*# sourceMappingURL=style.css.map */
