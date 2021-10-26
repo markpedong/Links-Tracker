@@ -56,4 +56,13 @@ li {
 a {
   color: #5f9341;
 }
+
+#welcome-el {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #5f9341;
+  margin: 0px 10px 5px 10px;
+  padding: 5px 30px;
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */

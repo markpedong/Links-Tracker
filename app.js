@@ -64,45 +64,4 @@ if (leadsFromLocalStorage) {
     render(myLeads)
 }
 
-// Template Literals/ Strings
-// const recipient = "James"
-// const sender = "Mark"
 
-// const email = `Hey ${recipient}! 
-// How is it going?
-// Cheers ${sender}!`
-
-// console.log(email);
-
-// const credits = 1
-
-// //ternary operator
-// console.log((NaN) ? "Let's Play!" : "Sorry! You have no credits!");
-
-// //checking the value if it is true of false
-// let trueOrFalse = Boolean("")
-
-// console.log(trueOrFalse);
-
-// welcomeEl = document.querySelector("#welcome-el")
-
-// greetUser = (greeting, name) => {
-//     welcomeEl.textContent = `${greeting} ${name}`
-// }
-
-// let hi = "Howdy"
-// greetUser(hi, "James")
-
-
-// add = (num1, num2) => {
-//     return num1 + num2
-// }
-
-// console.log(add(3, 4));
-
-
-// getFirst = (arr) => { 
-//     return arr[0]
-// }
-
-// console.log(getFirst([10, 1, 2]))
