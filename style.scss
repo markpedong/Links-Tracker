@@ -1,44 +1,44 @@
 html,body{
     margin: 0;
     padding: 0;
-    min-width: 400px;
+    min-width: 300px;
+    text-align: center;
+    animation: wholePage 1s;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+@keyframes wholePage {
+    0% {
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+
+    }
 }
 
 input{
-    width: 100%;
+    width: 95%;
     margin: 10px 10px 5px 10px;
     font-size: 15px;
     padding: 5px;
-    border: 1px solid #5f9341;
+    border: 1px solid #3b4864;
     box-sizing: border-box;
 }
 
 button{
     font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #5f9341;
-    margin: 0px 10px 5px 10px;
-    padding: 5px 30px;
-    border: none;
-}
-
-#box{
-    cursor: pointer;
-    background: lightseagreen;
-    padding: 40px;
-    width: 200px;
-    text-align: center;
-    margin: 20px auto;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-}
-
-#delete-btn{
-    color: #5f9341;
-    background-color: white;
-    border: 1.5px solid #5f9341;
-    font-family: 'Poppins', sans-serif;
-    margin: 5px 30px;
+    background-color: #ff0055;
+    margin: 10px 3px 0px 3px;
+    padding: 8px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
 ul{
@@ -53,14 +53,8 @@ li{
 }
 
 a{
-    color: #5f9341;
-}
-
-#welcome-el {
+    color: #000000;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: #5f9341;
-    margin: 0px 10px 5px 10px;
-    padding: 5px 30px;
-    border: none;
+    font-weight: 300;
 }
