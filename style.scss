@@ -4,8 +4,7 @@ html,body{
     min-width: 300px;
     text-align: center;
     animation: wholePage 1s;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: #000000 
 }
 
 @keyframes wholePage {
@@ -24,7 +23,7 @@ input{
     margin: 10px 10px 5px 10px;
     font-size: 15px;
     padding: 5px;
-    border: 1px solid #3b4864;
+    border: 1px solid #636363;
     box-sizing: border-box;
 }
 
@@ -34,7 +33,7 @@ button{
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    background-color: #ff0055;
+    background-color: #ff00006b;
     margin: 10px 3px 0px 3px;
     padding: 8px 10px;
     border: 2px solid rgb(0, 0, 0);
@@ -53,7 +52,7 @@ li{
 }
 
 a{
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
